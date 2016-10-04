@@ -1,0 +1,71 @@
+<% include partial/Header.ejs%>
+
+<h1><%= title %></h1>
+<div class="divider" id="section5">
+  <p>I am happy to become your friend.If something that I can do, please contact me!</p>
+</div>
+
+<div class="row"><!-- start with rows to fill the info-->
+  <!--sperate two parts-->
+  <hr>
+
+  <div class="col-sm-9 col-sm-offset-1">
+
+    <div class="row form-group">
+      <div class="col-md-12">
+      </div>
+      <div class="col-xs-4">
+        <input type="text" class="form-control" id="firstName" name="name" placeholder="Your Name">
+      </div>
+      <div class="col-xs-6">
+        <input type="text" class="form-control" id="organization" name="organization" placeholder="Company or Organization">
+      </div>
+    </div>
+    <div class="row form-group">
+      <div class="col-xs-5">
+        <input type="text" class="form-control" name="email" placeholder="Email">
+      </div>
+      <div class="col-xs-5">
+        <input type="text" class="form-control" name="phone" placeholder="Phone">
+      </div>
+    </div>
+    <div class="row form-group">
+      <div class="col-xs-10">
+        <textarea class="form-control" placeholder="Comments"></textarea>
+      </div>
+    </div>
+    <div class="row form-group">
+      <div class="col-xs-10">
+        <button class="btn btn-default pull-right">Contact Me</button>
+      </div>
+    </div>
+
+  </div>
+
+</div><!--/row-->
+<!-- share button  -->
+<div class="container">
+  <div class="col-sm-8 col-sm-offset-2 text-center">
+
+    <ul class="list-inline center-block">
+      <!-- Buffer -->
+      <a href="https://bufferapp.com/add?url=https://simplesharebuttons.com&amp;text=Simple Share Buttons" target="_blank">
+        <img src="https://simplesharebuttons.com/images/somacro/buffer.png" alt="Buffer" />
+      </a>
+      <!-- Facebook -->
+      <a href="http://www.facebook.com/sharer.php?u=https://simplesharebuttons.com" target="_blank">
+        <img src="https://simplesharebuttons.com/images/somacro/facebook.png" alt="Facebook" />
+      </a>
+      <!-- Google+ -->
+      <a href="https://plus.google.com/share?url=https://simplesharebuttons.com" target="_blank">
+        <img src="https://simplesharebuttons.com/images/somacro/google.png" alt="Google" />
+      </a>
+      <!-- Twitter -->
+      <a href="https://twitter.com/share?url=https://simplesharebuttons.com&amp;text=Simple%20Share%20Buttons&amp;hashtags=simplesharebuttons" target="_blank">
+        <img src="https://simplesharebuttons.com/images/somacro/twitter.png" alt="Twitter" />
+      </a>
+    </ul>
+
+  </div><!--/col-->
+</div><!--/container-->
+<% include partial/Footer_all.ejs%>
